@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-pg:connect": "heroku run psql -h ec2-44-196-174-238.compute-1.amazonaws.com -p 5432 -U ijwszqyolykshv d5ddlm6nk7ajf3 -a young-beach-31914",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
