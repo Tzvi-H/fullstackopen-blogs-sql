@@ -7,9 +7,10 @@ Content-Type: application/json
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjE2Z3VpdGFyIiwiaWQiOjEsImlhdCI6MTY1MzkyODUzOX0.zNEZqRxhe_dDipjMdkrQ9B8dKrlmLDLSIsv65HVrcBk
 
 {
-    "author": "author 3",
-    "url": "url 3",
-    "title": "title 3"
+    "author": "author 2",
+    "url": "url 2",
+    "title": "title 2",
+    "likes": 10
 }
 
 ###
