@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-pg:connect": "heroku run psql -h ec2-44-196-174-238.compute-1.amazonaws.com -p 5432 -U ijwszqyolykshv d5ddlm6nk7ajf3 -a young-beach-31914",
+    "heroku-pg:connect": "heroku run psql -h ec2-34-231-221-151.compute-1.amazonaws.com -p 5432 -U lgodvshychiccd dbuab2ctlf9bqq -a desolate-earth-80854",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
@@ -21,6 +21,7 @@
     "express-async-errors": "^3.1.1",
     "jsonwebtoken": "^8.5.1",
     "pg": "^8.7.3",
-    "sequelize": "^6.20.1"
+    "sequelize": "^6.20.1",
+    "umzug": "^3.1.1"
   }
 }
